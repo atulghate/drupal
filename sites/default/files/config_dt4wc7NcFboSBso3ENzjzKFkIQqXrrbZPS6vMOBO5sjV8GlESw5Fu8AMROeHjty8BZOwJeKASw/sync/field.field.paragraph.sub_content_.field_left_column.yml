@@ -1,0 +1,21 @@
+uuid: 65498931-9658-45b5-979e-20621af813ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_left_column
+    - paragraphs.paragraphs_type.sub_content_
+  module:
+    - text
+id: paragraph.sub_content_.field_left_column
+field_name: field_left_column
+entity_type: paragraph
+bundle: sub_content_
+label: 'Left paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

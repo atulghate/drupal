@@ -1,0 +1,12 @@
+uuid: de5cd516-1526-442a-95a1-c50266c4e2cf
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'contact us'
+recipients:
+  - atulghate155@gmail.com
+reply: ''
+weight: 0
+message: 'Your massage has been send successfully. we will contact you shortly'
+redirect: ''

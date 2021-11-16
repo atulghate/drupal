@@ -1,0 +1,8 @@
+uuid: 2b6e4dc5-3651-48e1-9eff-0a376a93f22f
+langcode: en
+status: true
+dependencies: {  }
+id: author-list
+label: 'Author List'
+description: ''
+locked: false

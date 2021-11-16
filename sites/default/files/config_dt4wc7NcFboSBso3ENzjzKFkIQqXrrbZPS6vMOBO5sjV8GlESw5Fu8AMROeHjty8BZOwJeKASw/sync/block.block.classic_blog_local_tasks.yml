@@ -1,0 +1,36 @@
+uuid: e17942ee-bdad-4c15-b42c-84a80d27a2c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - classic_blog
+_core:
+  default_config_hash: pr3QYCTcRvWFwZ4-uxct2vWlDTF_liV-1RLiNFE5a-g
+id: classic_blog_local_tasks
+theme: classic_blog
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<Register>'
+    negate: false

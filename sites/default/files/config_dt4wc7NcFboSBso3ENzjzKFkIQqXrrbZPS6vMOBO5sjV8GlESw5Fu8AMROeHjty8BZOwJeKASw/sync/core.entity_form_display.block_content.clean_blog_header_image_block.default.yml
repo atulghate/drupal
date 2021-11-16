@@ -1,0 +1,43 @@
+uuid: 139ff204-c1c9-490a-8091-8b6c05c15fd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+    - field.field.block_content.clean_blog_header_image_block.field_clean_blog_header_backgrou
+    - field.field.block_content.clean_blog_header_image_block.field_clean_blog_header_image
+    - image.style.thumbnail
+  module:
+    - image
+_core:
+  default_config_hash: 8tj1Iz4e65oT_i-PnEscEe_7wjQZv--32GqompTGmXg
+id: block_content.clean_blog_header_image_block.default
+targetEntityType: block_content
+bundle: clean_blog_header_image_block
+mode: default
+content:
+  field_clean_blog_header_backgrou:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_clean_blog_header_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

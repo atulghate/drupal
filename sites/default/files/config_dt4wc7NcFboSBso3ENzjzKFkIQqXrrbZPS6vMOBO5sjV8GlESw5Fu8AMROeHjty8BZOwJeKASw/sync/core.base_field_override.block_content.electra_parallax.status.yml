@@ -1,0 +1,22 @@
+uuid: e764cae6-944a-4b15-911f-78cd70a98c31
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.electra_parallax
+id: block_content.electra_parallax.status
+field_name: status
+entity_type: block_content
+bundle: electra_parallax
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

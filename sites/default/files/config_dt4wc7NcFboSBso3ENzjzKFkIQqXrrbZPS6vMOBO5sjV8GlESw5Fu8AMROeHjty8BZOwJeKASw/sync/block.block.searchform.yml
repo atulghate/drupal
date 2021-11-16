@@ -1,0 +1,36 @@
+uuid: c2fbc904-46c9-4123-b80b-de886e699542
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+    - user
+  theme:
+    - bartik
+id: searchform
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/home"
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

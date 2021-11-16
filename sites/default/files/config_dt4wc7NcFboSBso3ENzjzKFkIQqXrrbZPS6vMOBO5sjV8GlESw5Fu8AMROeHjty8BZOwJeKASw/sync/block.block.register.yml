@@ -1,0 +1,47 @@
+uuid: d9a58f44-f4f0-4f57-a224-8eb0ecf3e3eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.register
+  module:
+    - node
+    - system
+    - user
+  theme:
+    - classic_blog
+id: register
+theme: classic_blog
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:register'
+settings:
+  id: 'system_menu_block:register'
+  label: Register
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "<front>\r\n"
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

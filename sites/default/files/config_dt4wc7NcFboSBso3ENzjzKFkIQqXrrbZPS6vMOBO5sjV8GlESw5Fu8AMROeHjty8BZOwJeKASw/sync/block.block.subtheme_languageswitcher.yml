@@ -1,0 +1,25 @@
+uuid: 98a96c8c-663f-4608-928d-d4476c5f0420
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+    - system
+  theme:
+    - subtheme
+id: subtheme_languageswitcher
+theme: subtheme
+region: header_left
+weight: -8
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/myblog\r\n/en/author-list"
+    negate: true

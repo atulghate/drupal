@@ -1,0 +1,29 @@
+uuid: 49d6a7e6-93ed-4c15-950b-ede3ea93ef0f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - system
+    - views
+  theme:
+    - subtheme
+id: subtheme_views_block__content_recent_block_1
+theme: subtheme
+region: header_left
+weight: -5
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/gallery\r\n/author-list\r\n/services\r\nhttp://drupal.local/en/node/27"
+    negate: true

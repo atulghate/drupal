@@ -1,0 +1,21 @@
+uuid: d3afa664-4493-4d27-a5b4-7248353ebe1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+    - field.storage.block_content.field_clean_blog_header_backgrou
+_core:
+  default_config_hash: PrTuxZAT2TXDZ5aTrL7bczoZm8RmYYsecLGYnw8LvHE
+id: block_content.clean_blog_header_image_block.field_clean_blog_header_backgrou
+field_name: field_clean_blog_header_backgrou
+entity_type: block_content
+bundle: clean_blog_header_image_block
+label: 'Clean Blog Header Background Color'
+description: 'Provide the color code, example "#ffff" or  "red" or "blue"'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

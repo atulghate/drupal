@@ -1,0 +1,25 @@
+uuid: b488480d-af18-4a5c-bee6-8d2d0c8d1d79
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tara
+_core:
+  default_config_hash: L5Isbha2f5lp_ISo3rvGr3kIAEQuKCm1p2KC9-KzSaU
+id: tara_branding
+theme: tara
+region: site_branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: iBLOG
+  provider: system
+  label_display: visible
+  use_site_logo: false
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

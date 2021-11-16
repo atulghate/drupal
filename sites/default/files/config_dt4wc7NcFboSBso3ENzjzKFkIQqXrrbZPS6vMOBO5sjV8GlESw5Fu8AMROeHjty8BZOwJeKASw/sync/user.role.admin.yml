@@ -1,0 +1,31 @@
+uuid: 57585ac9-456c-4be6-96c7-7bf33a384bb6
+langcode: en
+status: true
+dependencies: {  }
+id: admin
+label: Admin
+weight: 3
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer comments'
+  - 'administer search'
+  - 'administer user display'
+  - 'change own username'
+  - 'create article content'
+  - 'create terms in blog'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any article content'
+  - 'delete own article content'
+  - 'delete terms in blog'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit terms in blog'
+  - 'edit terms in tags'
+  - 'select account cancellation method'
+  - 'use advanced search'
+  - 'view own unpublished content'

@@ -1,0 +1,25 @@
+uuid: 991ce3aa-b542-44fa-8932-d27c34824cf1
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:84aa081b-2e79-4934-b140-8d5379d61e16'
+  module:
+    - block_content
+  theme:
+    - subtheme
+id: subtheme_ourservices_2
+theme: subtheme
+region: header_left
+weight: 0
+provider: null
+plugin: 'block_content:84aa081b-2e79-4934-b140-8d5379d61e16'
+settings:
+  id: 'block_content:84aa081b-2e79-4934-b140-8d5379d61e16'
+  label: 'Our Services'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

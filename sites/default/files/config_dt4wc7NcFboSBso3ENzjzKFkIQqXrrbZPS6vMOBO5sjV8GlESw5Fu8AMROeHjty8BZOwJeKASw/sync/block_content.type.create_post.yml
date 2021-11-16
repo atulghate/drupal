@@ -1,0 +1,8 @@
+uuid: 0a098ed4-ff99-42ae-8760-30cf1fc4e168
+langcode: en
+status: true
+dependencies: {  }
+id: create_post
+label: 'Create Post'
+revision: 0
+description: ''

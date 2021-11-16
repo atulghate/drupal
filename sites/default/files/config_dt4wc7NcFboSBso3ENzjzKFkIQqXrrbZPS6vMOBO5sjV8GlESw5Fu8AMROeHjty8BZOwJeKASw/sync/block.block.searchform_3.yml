@@ -1,0 +1,36 @@
+uuid: 5b97fabe-9441-4e71-b802-aef047716f60
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+    - user
+  theme:
+    - classic_blog
+id: searchform_3
+theme: classic_blog
+region: sidebar_second
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/home\r\n"
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

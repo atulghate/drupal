@@ -1,0 +1,29 @@
+uuid: 95adf3f1-ca65-4943-b93c-f93cccd553ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - system
+    - views
+  theme:
+    - electra
+id: views_block__content_recent_block_1
+theme: electra
+region: sidebar_right
+weight: -5
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/gallery\r\n/author-list\r\n/services\r\nhttp://drupal.local/en/node/27"
+    negate: true

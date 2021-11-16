@@ -1,0 +1,10 @@
+uuid: c77c76b6-5893-4eb1-b933-ee4904a06dd1
+langcode: en
+status: true
+dependencies: {  }
+id: sub_content_
+label: 'Sub Content '
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

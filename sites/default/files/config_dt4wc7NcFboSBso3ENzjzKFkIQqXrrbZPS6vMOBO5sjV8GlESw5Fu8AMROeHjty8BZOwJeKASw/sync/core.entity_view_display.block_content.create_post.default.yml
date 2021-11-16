@@ -1,0 +1,41 @@
+uuid: b6cdaaab-e7bc-45e9-99ae-d8e16d4a0e2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.create_post
+    - field.field.block_content.create_post.body
+    - field.field.block_content.create_post.field_description
+    - field.field.block_content.create_post.field_image
+  module:
+    - image
+    - text
+id: block_content.create_post.default
+targetEntityType: block_content
+bundle: create_post
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

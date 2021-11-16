@@ -1,0 +1,19 @@
+name: Custom Theme
+type: theme
+description: 'Custom Theme for My Website.'
+package: Other
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - custom_theme/global-styling
+regions:
+  header: header
+  banner: banner image
+  navigation: Main navigation
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom

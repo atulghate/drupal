@@ -1,0 +1,31 @@
+uuid: 53226ccc-e25a-420d-9b42-e04a2d92a7be
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.sub_content_.field_left_column
+    - field.field.paragraph.sub_content_.field_right_paragraph
+    - paragraphs.paragraphs_type.sub_content_
+  module:
+    - text
+id: paragraph.sub_content_.preview
+targetEntityType: paragraph
+bundle: sub_content_
+mode: preview
+content:
+  field_left_column:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_right_paragraph:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

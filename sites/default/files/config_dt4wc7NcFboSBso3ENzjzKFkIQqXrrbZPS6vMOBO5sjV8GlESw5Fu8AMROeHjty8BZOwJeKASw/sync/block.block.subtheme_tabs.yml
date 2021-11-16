@@ -1,0 +1,31 @@
+uuid: f55b0a8d-b3d7-4b64-b61c-0c525d73085d
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - subtheme
+_core:
+  default_config_hash: Eh1Xqa2S9XT-6B_7C4B7RVV13U9A9uMTKZGzwwG1X-k
+id: subtheme_tabs
+theme: subtheme
+region: header_left
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

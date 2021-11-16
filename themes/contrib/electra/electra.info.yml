@@ -1,0 +1,29 @@
+name: Electra
+type: theme
+base theme: false
+description: A Blog & multipurpose bootstrap 4 based theme
+package: 'Electra'
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - electra/global-styling
+
+regions:
+  header_left: 'Header Left'
+  navigation: 'Main Navigation'
+  header_right: 'Header Right'
+  content_header: 'Page Header'
+  content_top_fluid: 'Page top Full Width'
+  content_top: 'Content top'
+  content: 'Content' #required!
+  content_bottom: 'Content bottom'
+  content_bottom_fluid: 'Page bottom Full Width'
+  sidebar_right: 'Right Sidebar'
+  footer_top: 'Footer Top'
+  footer_middle: 'Footer Middle'
+
+# Information added by Drupal.org packaging script on 2020-06-26
+version: '8.x-3.2'
+project: 'electra'
+datestamp: 1593179069

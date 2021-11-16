@@ -1,0 +1,21 @@
+uuid: b87850a6-99c3-4982-8c6c-c5bac1d455a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_back
+    - node.type.article
+id: node.article.field_back
+field_name: field_back
+entity_type: node
+bundle: article
+label: Back
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

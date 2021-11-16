@@ -1,0 +1,40 @@
+uuid: 4fd88355-730e-410d-9fe9-0b10d78a8025
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+    - field.storage.block_content.field_clean_blog_header_image
+  module:
+    - image
+_core:
+  default_config_hash: v-vtS4WCNJ8oWYfdX2SF8HOt631eMYAVkZcn4gCBrKY
+id: block_content.clean_blog_header_image_block.field_clean_blog_header_image
+field_name: field_clean_blog_header_image
+entity_type: block_content
+bundle: clean_blog_header_image_block
+label: 'Clean Blog Header Image'
+description: 'The image will appear on the  header of the page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

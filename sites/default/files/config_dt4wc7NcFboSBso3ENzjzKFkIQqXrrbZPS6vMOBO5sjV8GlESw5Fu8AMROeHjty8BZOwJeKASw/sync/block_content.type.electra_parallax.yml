@@ -1,0 +1,10 @@
+uuid: 999228ee-0822-4c1d-a417-4776934ea0ea
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2Z5VoHHJfJIYUfcbSjW1kHvuIdh6Ju8wT8X0paLBTBQ
+id: electra_parallax
+label: Parallax
+revision: 0
+description: 'Create custom parallax sections with background image or video'

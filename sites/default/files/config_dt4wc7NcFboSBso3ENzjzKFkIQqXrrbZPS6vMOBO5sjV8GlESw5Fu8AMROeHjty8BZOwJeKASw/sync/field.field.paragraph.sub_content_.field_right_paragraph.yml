@@ -1,0 +1,21 @@
+uuid: f74a3f5d-766e-4a5e-890f-4b00ff090243
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_right_paragraph
+    - paragraphs.paragraphs_type.sub_content_
+  module:
+    - text
+id: paragraph.sub_content_.field_right_paragraph
+field_name: field_right_paragraph
+entity_type: paragraph
+bundle: sub_content_
+label: 'Right paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

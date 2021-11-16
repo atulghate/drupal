@@ -1,0 +1,37 @@
+uuid: fe7aedb8-6cf4-488c-abac-2eb5dfff5a7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+    - field.field.contact_message.contact_us.field_email
+    - field.field.contact_message.contact_us.field_name
+id: contact_message.contact_us.default
+targetEntityType: contact_message
+bundle: contact_us
+mode: default
+content:
+  field_email:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

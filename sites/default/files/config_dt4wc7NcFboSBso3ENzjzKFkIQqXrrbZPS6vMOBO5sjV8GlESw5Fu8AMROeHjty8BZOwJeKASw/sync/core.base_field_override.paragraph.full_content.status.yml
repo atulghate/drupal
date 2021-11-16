@@ -1,0 +1,22 @@
+uuid: e37d2b18-df62-4a46-b229-a6ae4cded052
+langcode: hi
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.full_content
+id: paragraph.full_content.status
+field_name: status
+entity_type: paragraph
+bundle: full_content
+label: प्रकाशित
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: चालू
+  off_label: बंद
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: aaf32b1d-d007-4d4d-8977-ac4e53117a2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.sub_content_.field_left_column
+    - field.field.paragraph.sub_content_.field_right_paragraph
+    - paragraphs.paragraphs_type.sub_content_
+  module:
+    - text
+id: paragraph.sub_content_.default
+targetEntityType: paragraph
+bundle: sub_content_
+mode: default
+content:
+  field_left_column:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_right_paragraph:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

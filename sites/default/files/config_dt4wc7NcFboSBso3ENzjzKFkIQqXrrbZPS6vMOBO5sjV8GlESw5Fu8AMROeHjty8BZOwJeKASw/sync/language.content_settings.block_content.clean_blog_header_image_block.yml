@@ -1,0 +1,18 @@
+uuid: 014d3f9b-d35e-407f-b1b4-20e544746c44
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.clean_blog_header_image_block
+target_entity_type_id: block_content
+target_bundle: clean_blog_header_image_block
+default_langcode: site_default
+language_alterable: false

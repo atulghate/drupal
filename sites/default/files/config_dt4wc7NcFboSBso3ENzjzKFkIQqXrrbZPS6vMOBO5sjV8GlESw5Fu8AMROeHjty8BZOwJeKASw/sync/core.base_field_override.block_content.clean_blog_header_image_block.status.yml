@@ -1,0 +1,22 @@
+uuid: 9cf4c727-6e83-4745-972c-3de1c3bbb528
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+id: block_content.clean_blog_header_image_block.status
+field_name: status
+entity_type: block_content
+bundle: clean_blog_header_image_block
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

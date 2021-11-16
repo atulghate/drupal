@@ -1,0 +1,25 @@
+uuid: 9d1f5596-3fd9-4272-83a8-5a3d2c102899
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:84aa081b-2e79-4934-b140-8d5379d61e16'
+  module:
+    - block_content
+  theme:
+    - classic_blog
+id: ourservices
+theme: classic_blog
+region: footer_first
+weight: -6
+provider: null
+plugin: 'block_content:84aa081b-2e79-4934-b140-8d5379d61e16'
+settings:
+  id: 'block_content:84aa081b-2e79-4934-b140-8d5379d61e16'
+  label: 'Our Services'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

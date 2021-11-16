@@ -1,0 +1,27 @@
+uuid: e7e252ca-25a6-4a74-ae59-517544b706ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - electra
+_core:
+  default_config_hash: m-BB1kcnxKZ_v0j_NAG0Crti_sOvBBsXSJBu1QxzCr4
+id: electra_main_menu
+theme: electra
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

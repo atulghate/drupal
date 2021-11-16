@@ -1,0 +1,25 @@
+uuid: f9d3dbd7-adcd-47bd-b7bb-e971be76969d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:84aa081b-2e79-4934-b140-8d5379d61e16'
+  module:
+    - block_content
+  theme:
+    - electra
+id: ourservices_2
+theme: electra
+region: footer_middle
+weight: 0
+provider: null
+plugin: 'block_content:84aa081b-2e79-4934-b140-8d5379d61e16'
+settings:
+  id: 'block_content:84aa081b-2e79-4934-b140-8d5379d61e16'
+  label: 'Our Services'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

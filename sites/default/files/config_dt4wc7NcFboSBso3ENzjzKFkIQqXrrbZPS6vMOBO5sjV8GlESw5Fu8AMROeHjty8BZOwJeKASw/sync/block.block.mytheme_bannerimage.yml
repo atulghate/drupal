@@ -1,0 +1,30 @@
+uuid: e405d6ab-5f07-46a8-a66c-dec045aa3cd0
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:clean_blog_header_image_block:4be266b0-7ab1-4b94-82a8-4bca889186a5'
+  module:
+    - block_content
+    - system
+  theme:
+    - mytheme
+id: mytheme_bannerimage
+theme: mytheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:4be266b0-7ab1-4b94-82a8-4bca889186a5'
+settings:
+  id: 'block_content:4be266b0-7ab1-4b94-82a8-4bca889186a5'
+  label: 'banner '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: default
+visibility:
+  request_path:
+    id: request_path
+    pages: "/gallery\r\n/author-list\r\n/en/contact/contact_us\r\n/contact_us\r\nhttp://drupal.local/en/node/26\r\nhttp://drupal.local/en/node/27"
+    negate: true

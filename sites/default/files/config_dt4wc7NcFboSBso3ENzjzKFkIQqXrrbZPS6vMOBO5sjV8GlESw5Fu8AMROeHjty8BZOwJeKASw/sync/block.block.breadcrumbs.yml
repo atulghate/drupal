@@ -1,0 +1,27 @@
+uuid: e3a0847c-ca2a-4e2e-bf61-9a56c3f7773a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - electra
+_core:
+  default_config_hash: K3M1ging5WeaBnO4UDwmIKJe-YeLXTSIB09LC_LY1EA
+id: breadcrumbs
+theme: electra
+region: content_header
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

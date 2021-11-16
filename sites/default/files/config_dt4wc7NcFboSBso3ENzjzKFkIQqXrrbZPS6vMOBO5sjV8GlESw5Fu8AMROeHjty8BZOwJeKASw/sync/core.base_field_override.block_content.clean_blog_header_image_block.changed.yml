@@ -1,0 +1,18 @@
+uuid: 56052c30-e6fe-4285-99e2-3541a69c8ff1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+id: block_content.clean_blog_header_image_block.changed
+field_name: changed
+entity_type: block_content
+bundle: clean_blog_header_image_block
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

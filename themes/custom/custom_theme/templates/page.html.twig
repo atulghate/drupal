@@ -1,0 +1,24 @@
+
+<header class="header" id="header" >
+    {{ page.header }}
+    {{page.banner}}
+<div class="navbar"> 
+    {{page.navigation}}
+</div>
+</header>
+<section class="main" id="main">
+    <main class="content" id="content" >
+        {{ page.content }}
+    </main>
+    <aside class="right_sidebar" id="sidebar" >
+        {{ page.right_sidebar }}
+    </aside>
+</section>
+<footer class="footer" id="footer" >
+    <div class="footer_top">
+        {{ page.footer_first }} {{ page.footer_second }} {{ page.footer_third }}
+    </div>
+    <div class="footer_bottom">
+        {{ page.footer_bottom }}
+    </div>
+</footer>

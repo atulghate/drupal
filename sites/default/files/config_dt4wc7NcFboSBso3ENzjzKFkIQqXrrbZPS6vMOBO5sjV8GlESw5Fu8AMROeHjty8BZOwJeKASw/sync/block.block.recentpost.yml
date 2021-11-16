@@ -1,0 +1,49 @@
+uuid: 507f86d2-b611-48c1-82c2-06ac6c193e00
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50c5059f-c6a0-42c8-b56e-bc51516fcc9c'
+  module:
+    - block_content
+    - node
+    - system
+    - user
+  theme:
+    - bartik
+id: recentpost
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:50c5059f-c6a0-42c8-b56e-bc51516fcc9c'
+settings:
+  id: 'block_content:50c5059f-c6a0-42c8-b56e-bc51516fcc9c'
+  label: 'Recent Post'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: "<front>\r\n"
+    negate: false

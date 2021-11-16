@@ -1,0 +1,25 @@
+uuid: a74e8aa6-0d49-4470-9491-a1455a9b3308
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.blog-categories
+  module:
+    - system
+  theme:
+    - classic_blog
+id: blogcategories
+theme: classic_blog
+region: footer_second
+weight: -6
+provider: null
+plugin: 'system_menu_block:blog-categories'
+settings:
+  id: 'system_menu_block:blog-categories'
+  label: 'Blog Categories'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

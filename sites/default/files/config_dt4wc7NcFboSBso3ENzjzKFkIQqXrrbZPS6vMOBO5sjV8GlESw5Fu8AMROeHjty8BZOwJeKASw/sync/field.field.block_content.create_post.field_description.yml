@@ -1,0 +1,23 @@
+uuid: f4752d27-32f1-4693-ab1d-c2fd6e8ffe81
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.create_post
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.create_post.field_description
+field_name: field_description
+entity_type: block_content
+bundle: create_post
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

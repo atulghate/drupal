@@ -1,0 +1,20 @@
+uuid: da3b4f46-1573-49ec-869b-65cfa054c535
+langcode: en
+status: true
+dependencies:
+  theme:
+    - electra
+_core:
+  default_config_hash: VGUdlM6HktSItUoX0ePHJp9U1LE7XMe15_5_bCu3h0E
+id: pagetitle
+theme: electra
+region: content_header
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

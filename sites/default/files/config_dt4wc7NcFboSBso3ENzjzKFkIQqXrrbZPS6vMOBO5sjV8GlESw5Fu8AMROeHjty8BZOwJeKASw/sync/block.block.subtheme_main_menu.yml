@@ -1,0 +1,27 @@
+uuid: 0bc51b33-09f5-4f7c-bd21-9a1ca11e8529
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - subtheme
+_core:
+  default_config_hash: m-BB1kcnxKZ_v0j_NAG0Crti_sOvBBsXSJBu1QxzCr4
+id: subtheme_main_menu
+theme: subtheme
+region: header_left
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,33 @@
+definitions:
+  contact__site_page:
+    enabled: true
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__blog_categories__2':
+    expanded: true
+    parent: 'tools:'
+    weight: 0
+    menu_name: blog-categories
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__blog_categories__3':
+    expanded: true
+    parent: 'tools:'
+    weight: 1
+    menu_name: blog-categories
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__blog_categories__1':
+    expanded: true
+    parent: 'tools:'
+    weight: 2
+    menu_name: blog-categories
+    enabled: true
+_core:
+  default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ

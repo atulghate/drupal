@@ -1,0 +1,25 @@
+uuid: 2fe2dd8a-59f4-45b0-81ca-0b4cafc3af07
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - system
+  theme:
+    - electra
+id: languageswitcher
+theme: electra
+region: sidebar_right
+weight: -8
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/myblog\r\n/en/author-list"
+    negate: true

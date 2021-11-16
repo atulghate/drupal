@@ -1,0 +1,29 @@
+uuid: 149b04c6-cd6d-49f7-be22-c71202435db0
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.blog-categories
+  module:
+    - system
+  theme:
+    - subtheme
+id: subtheme_blogcategories_2
+theme: subtheme
+region: header_left
+weight: -7
+provider: null
+plugin: 'system_menu_block:blog-categories'
+settings:
+  id: 'system_menu_block:blog-categories'
+  label: 'Blog Categories'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/gallery\r\n/author-list"
+    negate: true

@@ -1,0 +1,107 @@
+uuid: 34756c98-973b-4bc5-8af0-39cf404fa562
+langcode: en
+status: false
+dependencies:
+  module:
+    - go_back
+  theme:
+    - subtheme
+id: subtheme_gobackblock
+theme: subtheme
+region: header_left
+weight: -7
+provider: null
+plugin: go_back
+settings:
+  id: go_back
+  label: 'Go Back '
+  provider: go_back
+  label_display: visible
+  custom_url: ''
+  particular_path: {  }
+  aggregator_feed:
+    aggregator_feed:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  comment:
+    comment:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  node:
+    article:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    page:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    webform:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  block_content:
+    basic:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    clean_blog_header_image_block:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    create_post:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    electra_parallax:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  menu_link_content:
+    menu_link_content:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  shortcut:
+    default:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  taxonomy_term:
+    blog:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    tags:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  user:
+    user:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+  webform_submission:
+    contact:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    example_options_custom:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    log_in:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    registration_form:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+    template_user_profile:
+      quick_display: 0
+      smart_mode: 0
+      go_back: ''
+visibility: {  }

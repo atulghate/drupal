@@ -1,0 +1,18 @@
+uuid: e885f056-031f-4b5f-8078-3dde4413c216
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clean_blog_header_image_block
+id: block_content.clean_blog_header_image_block.info
+field_name: info
+entity_type: block_content
+bundle: clean_blog_header_image_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

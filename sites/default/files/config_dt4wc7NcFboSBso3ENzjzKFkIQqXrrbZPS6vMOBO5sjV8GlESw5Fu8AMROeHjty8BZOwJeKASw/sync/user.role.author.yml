@@ -1,0 +1,23 @@
+uuid: 4bda5afa-47c7-408f-b49d-fe32cac7fe97
+langcode: en
+status: true
+dependencies: {  }
+id: author
+label: Author
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer comments'
+  - 'administer search'
+  - 'administer user display'
+  - 'change own username'
+  - 'create article content'
+  - 'create url aliases'
+  - 'delete own article content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'select account cancellation method'
+  - 'use advanced search'
+  - 'view own unpublished content'
