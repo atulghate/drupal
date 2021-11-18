@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   margin: 0px;
+  background-color: #e3e6e8;
 }
 
 section {
@@ -67,11 +68,11 @@ article .views-col {
 }
 
 main .content {
-  margin-left: 20px;
+  margin-left: 70px;
 }
 
 .dialog-off-canvas-main-canvas section .content {
-  margin-left: 40px;
+  margin-left: 120px;
 }
 
 .description p {
@@ -157,8 +158,4 @@ main .content {
   margin-top: 0px;
   padding: 10px;
   margin-left: 500px;
-}
-
-.block-mainpagecontent .views-row .clearfix .row-1 {
-  margin-bottom: 40px;
 }

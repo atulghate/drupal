@@ -20,12 +20,12 @@ gulp.task('css', async function () {
     .pipe(gulp.dest('./dist/'));
 });
 
-//  gulp.task('run',['scss','css']);
+  // gulp.task('run',['scss','css']);
 
-// gulp.task('watch',  function(){
-//   gulp.watch('sass/*.scss',['scss']); 
-//   gulp.watch('css/*.css',['css']);
-// });
+gulp.task('watch',  function(){
+  // gulp.watch('sass/*.scss',['ssss']); 
+  gulp.watch('css/*.css',['css']);
+});
 
 // gulp.task('default',['run','watch']);
 // gulp.task('watch',function(){
