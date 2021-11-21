@@ -71,7 +71,7 @@ main .content {
   margin-left: 70px;
 }
 
-.dialog-off-canvas-main-canvas section .content {
+.dialog-off-canvas-main-canvas section #block-mainpagecontent {
   margin-left: 120px;
 }
 
@@ -87,6 +87,7 @@ main .content {
 .title-blog {
   width: 80%;
   font-size: 20px;
+  margin-top: 20px;
 }
 .title-blog a {
   text-decoration: none;
@@ -130,15 +131,18 @@ main .content {
   color: white;
 }
 .footer_top .first_div .quickedit-field {
-  margin-left: 30px;
+  margin-left: 144px;
 }
 .footer_top .second_div {
   width: 100%;
-  margin-left: 180px;
+  margin-left: 150px;
+  color: white;
 }
-.footer_top .second_div ul {
-  padding: 41px;
-  margin-top: 40px;
+.footer_top .second_div .quickedit-field {
+  margin-top: 60px;
+}
+.footer_top .second_div .quickedit-field a {
+  color: white;
 }
 .footer_top .third_div {
   width: 100%;
@@ -147,7 +151,7 @@ main .content {
   width: 63%;
 }
 .footer_top .third_div #search-block-form {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .footer_bottom {
@@ -157,5 +161,9 @@ main .content {
 .footer_bottom .quickedit-field p {
   margin-top: 0px;
   padding: 10px;
+  margin-left: 500px;
+}
+
+.views-view-grid .horizontal .cols-3 .clearfix {
   margin-left: 500px;
 }

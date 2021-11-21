@@ -95,12 +95,16 @@ main{
     .content{
         margin-left: 70px;
     }
+  
 } 
 .dialog-off-canvas-main-canvas{
 section{
   .content{
-       margin-left:120px;
+    //    margin-left:120px;
    }
+   #block-mainpagecontent{
+    margin-left: 120px;
+}
 }
 }
 
@@ -117,6 +121,7 @@ section{
 .title-blog{
     width: 80%;
     font-size: 20px;
+    margin-top: 20px;
     a{
         text-decoration: none;
     }
@@ -162,17 +167,24 @@ section{
     width: 100%;
     color: white;
     .quickedit-field{
-        margin-left: 30px;
+        margin-left: 144px;
     }
 
 }
 .second_div{
     width: 100%;
-    margin-left: 180px;
-    ul{ 
-        padding: 41px; 
-        margin-top: 40px;
+    margin-left: 150px;
+    color: white;
+    // ul{ 
+    //     padding: 41px; 
+    //     margin-top: 40px;
              
+    // }
+    .quickedit-field{
+        margin-top: 60px;
+        a{
+            color:white;
+        }
     }
 }
 .third_div{
@@ -181,9 +193,9 @@ section{
         width:63%;
     }
     #search-block-form{
-        margin-top: 80px;
+        margin-top: 70px;
     }
-
+  
 
 }
 }
@@ -199,3 +211,6 @@ section{
     }
 }
 
+.views-view-grid .horizontal .cols-3 .clearfix{
+    margin-left: 500px;
+}
