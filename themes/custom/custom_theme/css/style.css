@@ -30,9 +30,8 @@ section .content {
   color: black;
 }
 #block-custom-theme-main-menu a.active, #block-custom-theme-main-menu a:hover {
-  background-color: #d1d1d1;
   transition: 0.3s;
-  padding: 8px;
+  text-decoration: underline 2px;
   border-radius: 5px;
 }
 
@@ -64,7 +63,6 @@ article .views-col {
 
 .quickedit-field img {
   height: 450px;
-  aspect-ratio: 16/9;
 }
 
 main .content {
@@ -73,6 +71,9 @@ main .content {
 
 .dialog-off-canvas-main-canvas section #block-mainpagecontent {
   margin-left: 120px;
+}
+.dialog-off-canvas-main-canvas section #block-mainpagecontent h2 {
+  margin-left: 160px;
 }
 
 .description p {
@@ -88,6 +89,7 @@ main .content {
   width: 80%;
   font-size: 20px;
   margin-top: 20px;
+  height: 41px;
 }
 .title-blog a {
   text-decoration: none;
@@ -108,7 +110,7 @@ main .content {
 .views-view-grid .views-row {
   float: left;
   clear: both;
-  width: 84%;
+  width: 94%;
   margin-bottom: 40px;
 }
 
@@ -166,4 +168,62 @@ main .content {
 
 .views-view-grid .horizontal .cols-3 .clearfix {
   margin-left: 500px;
+}
+
+.fontawesome-icons {
+  color: white;
+}
+
+.readmore a {
+  padding: 6px;
+  border-radius: 0px;
+  background-color: #aba8a3;
+  text-decoration: none;
+  color: black;
+}
+.readmore a:hover {
+  background-color: #080807;
+  color: white;
+}
+
+.author-name {
+  margin-bottom: 10px;
+}
+
+table {
+  margin-left: 160px;
+  margin-bottom: 60px;
+  width: 64%;
+}
+table thead {
+  background-color: #87dbd4;
+  padding: 10px;
+}
+table thead tr th {
+  padding: 10px;
+}
+table tbody tr {
+  background-color: #cbcbcb;
+}
+table tbody tr td {
+  text-align: center;
+}
+
+.views-view-grid .horizontal {
+  background-color: yellowgreen;
+}
+
+.row_image .views-row c.learfix .row-1 {
+  background-color: blue;
+}
+
+.row-image {
+  display: flex;
+  margin-bottom: 30px;
+}
+.row-image .col-image {
+  width: 27.333333%;
+}
+.row-image .col-image .image-div {
+  margin-left: 70px;
 }

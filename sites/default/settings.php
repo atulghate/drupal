@@ -799,9 +799,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-  include $app_root . '/' . $site_path . '/settings.local.php';
-}
+
 $databases['default']['default'] = array (
   'database' => 'DB_drupal',
   'username' => 'atul',
@@ -814,3 +812,6 @@ $databases['default']['default'] = array (
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_dt4wc7NcFboSBso3ENzjzKFkIQqXrrbZPS6vMOBO5sjV8GlESw5Fu8AMROeHjty8BZOwJeKASw/sync';
 
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
