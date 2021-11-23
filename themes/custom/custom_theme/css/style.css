@@ -21,18 +21,21 @@ section .content {
   padding-top: 10px;
 }
 #block-custom-theme-main-menu ul li {
-  padding: 20px;
+  padding: 10px;
   text-transform: uppercase;
   display: inline;
 }
 #block-custom-theme-main-menu ul li a {
   text-decoration: none;
   color: black;
+  background-color: transparent;
+  padding: 10px;
 }
 #block-custom-theme-main-menu a.active, #block-custom-theme-main-menu a:hover {
   transition: 0.3s;
-  text-decoration: underline 2px;
   border-radius: 5px;
+  background: #bdbebc;
+  padding: 10px;
 }
 
 .quickedit-field p {
@@ -79,6 +82,7 @@ main .content {
 .description p {
   width: 90%;
   text-align: justify;
+  height: 90px;
 }
 
 .field-content h1 {
