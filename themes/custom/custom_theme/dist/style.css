@@ -1,28 +1,39 @@
-body{overflow-x:hidden;margin:0;background-color:#e3e6e8}section{margin:auto;width:100%}
-section .content{width:100%}#block-custom-theme-main-menu{background:#fdfdfd;height:70px;border:1px solid black}
+body{overflow-x:hidden;margin:0}section{margin:auto;width:100%}section .content{width:100%}
+#block-custom-theme-main-menu{background:#fdfdfd;height:70px;border:1px solid black}
 #block-custom-theme-main-menu ul{text-align:center;padding-top:10px}#block-custom-theme-main-menu ul li{padding:10px;text-transform:uppercase;display:inline}
 #block-custom-theme-main-menu ul li a{text-decoration:none;color:black;background-color:transparent;padding:10px}
-#block-custom-theme-main-menu a.active,#block-custom-theme-main-menu a:hover{transition:.3s;border-radius:5px;background:#bdbebc;padding:10px}
+#block-custom-theme-main-menu a.active,#block-custom-theme-main-menu a:hover{transition:.3s;border-radius:5px;background:#bdbebc}
 .quickedit-field p{width:40%}.links inline{background-color:blueviolet;padding:20px}
 section .main{margin-left:25px}article h2{color:darkblue}article .views-col{margin-top:10px;font-size:medium}
-.field-content{padding:10px p;padding-width:90%}.quickedit-field img{height:450px}
-main .content{margin-left:70px}.dialog-off-canvas-main-canvas section #block-mainpagecontent{margin-left:120px}
-.dialog-off-canvas-main-canvas section #block-mainpagecontent h2{margin-left:160px}
-.description p{width:90%;text-align:justify;height:90px}.field-content h1{width:90%}
-.title-blog{width:80%;font-size:20px;margin-top:20px;height:41px}.title-blog a{text-decoration:none}
-.views-col .col-1{width:27%}.col-blog .views-col .col-2{width:20%}.row-blog .views-row .clearfix .row-2{width:60%}
-.views-view-grid .views-row{float:left;clear:both;width:94%;margin-bottom:40px}.footer_top{display:flex;background-color:black}
-.footer_top #block-mainnavigation ul{width:100%}.footer_top #block-mainnavigation ul li{text-decoration:none}
-.footer_top #block-mainnavigation ul li a{text-decoration:none;color:white}.footer_top .first_div{width:100%;color:white}
-.footer_top .first_div .quickedit-field{margin-left:144px}.footer_top .second_div{width:100%;margin-left:150px;color:white}
-.footer_top .second_div .quickedit-field{margin-top:60px}.footer_top .second_div .quickedit-field a{color:white}
-.footer_top .third_div{width:100%}.footer_top .third_div #edit-keys{width:63%}.footer_top .third_div #search-block-form{margin-top:70px}
-.footer_bottom{height:40px;background-color:#3b3838}.footer_bottom .quickedit-field p{margin-top:0;padding:10px;margin-left:500px}
+.field-content{padding:10px p;padding-width:90%}img.banner.align-center{height:450px;width:100%}
+main .content{margin-left:70px}.description p{width:90%;text-align:justify;height:90px}
+.field-content h1{width:90%}.views-col .col-1{width:27%}.col-blog .views-col .col-2{width:20%}
+.row-blog .views-row .clearfix .row-2{width:60%}.views-view-grid .views-row{float:left;clear:both;width:94%;margin-bottom:40px}
 .views-view-grid .horizontal .cols-3 .clearfix{margin-left:500px}.fontawesome-icons{color:white}
 .readmore a{padding:6px;border-radius:0;background-color:#aba8a3;text-decoration:none;color:black}
 .readmore a:hover{background-color:#080807;color:white}.author-name{margin-bottom:10px}
-table{margin-left:160px;margin-bottom:60px;width:64%}table thead{background-color:#87dbd4;padding:10px}
-table thead tr th{padding:10px}table tbody tr{background-color:#cbcbcb}table tbody tr td{text-align:center}
 .views-view-grid .horizontal{background-color:yellowgreen}.row_image .views-row c.learfix .row-1{background-color:blue}
 .row-image{display:flex;margin-bottom:30px}.row-image .col-image{width:27.333333%}
-.row-image .col-image .image-div{margin-left:70px}
+.row-image .col-image .image-div{margin-left:70px}.footer_top{width:100%;height:auto;background:black;display:flex;flex-direction:row;flex-flow:wrap;justify-content:center}
+.footer_top .box{width:30%;height:auto;box-sizing:border-box;color:white}.footer_top #box3{margin-top:60px}
+.footer_top #box3 .views-col{margin-top:20px;width:19%}.footer_top #box2{margin-top:35px;margin-left:40px}
+.footer_top #box1{margin-left:92px}@media screen and (max-width:1200px){.footer_top .box{width:40%}
+.footer_top .box #box3{margin-right:365px}.footer_top #box3{margin-right:330px;margin-top:0;margin-left:0}
+.footer_top #box1{margin-left:0}}@media screen and (max-width:600px){.footer_top #box3{margin:auto}
+.footer_top #box1{margin-left:0}.footer_top #box2{margin-top:0;margin-left:0}.footer_top .box{width:80%}
+img.banner.align-center{display:none}}.fontawesome-icon{float:left;margin-right:10px;width:25%}
+.views-row .clearfix .row-1 .views-col{width:26%}table{width:80%;border-collapse:collapse;margin:auto;margin-bottom:63px}
+table td,table th{padding:12px 15px;border:1px solid #ddd;text-align:center;font-size:16px}
+table th{background-color:darkblue;color:#fff}table tbody tr:nth-child(even){background-color:#f5f5f5}
+.gallery-view{max-width:1200px;display:flex;max-width:100%;flex-wrap:wrap;object-position:bottom;object-fit:cover;justify-content:center}
+.gallery-view .views-row{padding:25px}.views-row{display:flex;justify-content:center;margin-bottom:30px}
+.views-row img{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.views-row .desc_div{width:50%;padding:10px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.views-row .desc_div .read{margin-bottom:20px;margin-top:15px}.views-row .desc_div .title a{font-size:26px;text-decoration:none;color:black}
+.views-row .desc_div .read_div a{padding:10px 0;text-decoration:none;background-color:black;color:white;padding:5px}
+.views-row .desc_div .read_div :hover{background-color:white;color:black;border:1px solid black}
+.views-row .desc_div p{text-align:justify;height:37%}@media screen and (max-width:600px){.views-row{flex-direction:column;align-items:center}
+.views-row img{width:93%;height:auto}.views-row .desc_div{width:90%}table{width:70%;border-collapse:collapse;margin:auto}
+table td,table th{padding:0;border:1px solid #ddd;text-align:center;font-size:14px}
+}@media screen and (min-width:600px) and (max-width:800px){img{width:39%;height:auto}
+.views-row .image-div img{width:100%}}

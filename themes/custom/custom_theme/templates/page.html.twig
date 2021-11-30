@@ -1,10 +1,10 @@
-
+<div class="navbar"> 
+ 
+    {{page.navigation}}
+</div>
 <header class="header" id="header" >
     {{ page.header }}
     {{page.banner}}
-<div class="navbar"> 
-    {{page.navigation}}
-</div>
 </header>
 <section class="main" id="main">
     <main class="content" id="content" >
@@ -17,9 +17,9 @@
 <footer class="footer" id="footer" >
     <div class="footer_top">
 
-       <div class="first_div"> {{ page.footer_first }} </div> 
-     <div class="second_div">  {{ page.footer_second }} </div>
-     <div class="third_div">  {{ page.footer_third }}  </div>
+       <div class="box" id="box1"> {{ page.footer_first }} </div> 
+     <div class="box" id="box2" >  {{ page.footer_second }} </div>
+     <div class="box" id="box3" >  {{ page.footer_third }}  </div>
     </div>
     <div class="footer_bottom">
         {{ page.footer_bottom }}

@@ -9,8 +9,8 @@ libraries:
   - custom_theme/global-styling
 regions:
   header: header
-  banner: banner image
   navigation: Main navigation
+  banner: banner image
   content: Content
   right_sidebar: Right sidebar
   footer_first: Footer First

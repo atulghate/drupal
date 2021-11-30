@@ -12,6 +12,8 @@
  * @ingroup themeable
  */
 #}
-<form{{ attributes }}>
+<form{{ attributes.addClass('contact_form')}}>
+<div class="contact_box" id="contact_box_id">
   {{ children }}
+  <div>
 </form>

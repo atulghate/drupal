@@ -1,0 +1,17 @@
+#user-login-form {
+  left: 50%;
+  top: 50%;
+  /* margin-left: -25%; */
+  position: rel;
+  /* margin-top: -25%; */
+  width: 38%;
+  position: relative;
+  justify-content: center;
+}
+#user-login-form .edit-name--description {
+  display: none;
+}
+
+#edit-pass--description {
+  display: none;
+}
