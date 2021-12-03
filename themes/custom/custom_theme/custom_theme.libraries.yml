@@ -4,3 +4,10 @@ global-styling:
       css/style.css: {}
       css/contact.css: {}
       css/login.css: {}
+      css/register.css: {}
+  
+ 
+  js: 
+    js/script.js: {} 
+  dependencies:
+    - core/jquery

@@ -1,2 +1,6 @@
-#user-login-form{left:50%;top:50%;position:rel;width:38%;position:relative;justify-content:center}
-#user-login-form .edit-name--description{display:none}#edit-pass--description{display:none}
+#user-login-form{font-size:20px;text-align:center}#user-login-form input[type=text],#user-login-form input[type=password]{width:100%;margin-bottom:20px;padding:12px 20px;margin:8px 0;display:inline-block;border:1px solid #ccc;box-sizing:border-box}
+#edit-pass--description{display:none}#edit-name--description{display:none}.user-login-form .contact_box{border-radius:5px;border:1px solid;width:35%;margin:auto;margin-bottom:64px;display:flex;flex-direction:column;justify-content:center;flex-wrap:wrap;padding:20px}
+.js-form-item .form-item .js-form-type-textfield f.orm-item-name .js-form-item-name .js-form-required .form-required{display:block;float:left;color:black}
+label{display:block;float:left;color:#070303}#edit-submit{background-color:#00b894;color:white;padding:14px 20px;margin:8px 0;border:0;cursor:pointer;width:100%;margin-bottom:30px}
+@media screen and (max-width:600px){.user-login-form .contact_box{width:46%}}@media screen and (min-width:1040px) and (max-width:1660px){.user-login-form #contact_box_id{width:25%}
+}.hamburger{background-color:transparent;border:0;color:aliceblue;font-size:20px}

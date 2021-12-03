@@ -1,0 +1,7 @@
+#user-register-form{font-size:20px;text-align:center}#user-register-form input[type=text],#user-register-form input[type=password],#user-register-form input[type=email]{width:100%;margin-bottom:20px;padding:12px 20px;margin:8px 0;display:inline-block;border:1px solid #ccc;box-sizing:border-box}
+#user-register-form #edit-mail--description,#user-register-form #edit-user-picture-0--description,#user-register-form #edit-contact--2--description,#user-register-form #edit-contact{display:none}
+#contact_box_id{border-radius:5px;border:1px solid;width:35%;margin:auto;margin-bottom:64px;display:flex;flex-direction:column;justify-content:center;flex-wrap:wrap;padding:20px}
+@media screen and (max-width:600px){#user-register-form #contact_box_id{width:60%;display:block}
+}@media screen and (min-width:600px) and (max-width:900px){#user-register-form .contact_box{width:39%}
+}@media screen and (min-width:1000px) and (max-width:1600px){#user-register-form .contact_box{width:25%}
+}
