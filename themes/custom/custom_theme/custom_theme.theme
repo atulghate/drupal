@@ -1,0 +1,17 @@
+<?php
+  function custom_theme_preprocess_field__node__article(&$variables){
+      $variables['attributes']['class'][]='content_node';
+  }
+
+function custom_theme_form_alter(&$form, $form_state, $form_id) {
+
+  if ( $form['#form_id'] == 'user_login_form' ) {
+        $form['name']['#attributes']['placeholder'] = t('Username');
+        $form['pass']['#attributes']['placeholder'] = t('Password');
+  }
+
+  if ( $form['#form_id'] == 'user_register_form' ){
+    $form['mail']['#attributes']['placeholder'] = t('Email');
+    $form['name']['#attributes']['placeholder'] = t('Username');
+  }
+}

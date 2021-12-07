@@ -1,0 +1,6 @@
+.article{width:80%;margin:auto}.article .article_div .image_node{text-align:center}
+.article .article_div .body_node{width:700px;text-align:justify;margin:auto}.article label{float:none}
+.article #contact-form #edit-subject-0-value{border-radius:0;width:97%}@media screen and (max-width:900px){.article{padding:20px}
+.article .article_div .body_node{width:100%;text-align:justify}.article .article_div .image_node img{height:auto;width:100%}
+}@media screen and (min-width:900px) and (max-width:1400px){.article #comment-form{width:700px;margin:auto}
+}

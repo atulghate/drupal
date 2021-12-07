@@ -37,7 +37,7 @@
     .contact_box{
        
         
-    border-radius: 5px;
+    // border-radius: 5px;
       border: 1px solid;
         width: 35%;
         margin: auto;
@@ -47,6 +47,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    box-shadow: #6e6867 4px 7px;
     }
 }
 .js-form-item .form-item .js-form-type-textfield f.orm-item-name .js-form-item-name{
@@ -70,6 +71,7 @@ label{
     cursor: pointer;
     width: 100%;
     margin-bottom: 30px;
+    border-radius: 0px;
 }
 @media screen and (max-width:600px){
     .user-login-form{

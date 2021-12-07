@@ -8,6 +8,9 @@
   display: block;
   font-size: 20px;
 }
+#contact-message-contact-us-form #contact_box_id label {
+  float: none;
+}
 
 #block-mainpagecontent h2 {
   text-align: center;

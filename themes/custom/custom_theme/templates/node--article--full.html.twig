@@ -1,0 +1,21 @@
+<article class="article">
+
+  <div class="article_div"> 
+  <div class="image_node">
+  Published on: {{ date }}
+  {{ content.field_image }}   
+   
+ </div>
+ <div class="body_node">
+ {{ content.body.0 }}  
+  {% trans %}
+    Authored By: {{ author_name }}
+    
+  {% endtrans %}
+  </div>
+  </div>
+  {{ content|without('field_image', 'body') }}
+  
+  
+
+</article>

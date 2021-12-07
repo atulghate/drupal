@@ -1,4 +1,4 @@
-#user-register-form{
+.user-register-form {
     font-size: 20px;
     text-align: center;
     input[type=text],input[type=password] , input[type=email]{
@@ -10,14 +10,11 @@
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;  
+    
    
 }
-#edit-mail--description,#edit-user-picture-0--description ,#edit-contact--2--description ,#edit-contact{
-    display: none;
-}
-}
-#contact_box_id{
-    border-radius: 5px;
+.contact_box{
+    // border-radius: 5px;
     border: 1px solid;
       width: 35%;
       margin: auto;
@@ -27,7 +24,13 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
+  box-shadow: #6e6867 4px 7px;
 } 
+#edit-mail--description,#edit-user-picture-0--description ,#edit-contact--2--description ,#edit-contact{
+    display: none;
+}
+}
+
 @media screen and (max-width:600px){
     #user-register-form{
         #contact_box_id{

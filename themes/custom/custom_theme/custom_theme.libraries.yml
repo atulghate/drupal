@@ -5,6 +5,8 @@ global-styling:
       css/contact.css: {}
       css/login.css: {}
       css/register.css: {}
+      css/table.css: {}
+      css/node.css: {}
   
  
   js: 
